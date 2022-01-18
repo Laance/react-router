@@ -10,17 +10,17 @@ import ImageApp from './components/images/Images';
 function App() {
   return (
     <Router>
-    <div>
+    <div class="MainContainer">
     <div class="container">
       <header class="main">
-        <Link to="/home">Home</Link>
+        <Link to="/react-router">Home</Link>
         <Link to="/posts">Posts</Link>
         <Link to="/contacts">Contacts</Link>
         <Link to="/images">Images</Link>
       </header>
       </div>
     <Routes>
-      <Route path="/home" element={<HomePage />}></Route>
+      <Route path="/react-router" element={<HomePage />}></Route>
       <Route path="/posts" element={<Posts />}></Route>
       <Route path="/contacts" element={<MainContactsApp />}></Route>
       <Route path="/images" element={<ImageApp/>}></Route>
