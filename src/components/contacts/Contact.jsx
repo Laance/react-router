@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Contact = ({ phone, name, surname, gender }) => {
+const Contact = ({ phone, name, gender }) => {
 
     
     return (
         <div className="contact">
             <div className='data'> 
-                <div className='name'>{name} {surname}</div>
+                <div className='name'>{name} </div>
                 <div>{phone}</div>
                 <div>{gender}</div>
                 <hr />

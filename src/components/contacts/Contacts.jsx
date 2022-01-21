@@ -1,31 +1,25 @@
 const Contacts = [{
-  firstName: "Барней",
-  lastName: "Стинсовський",
+  firstName: "Boromir",
   phone: "+380956319521",
   gender: "male"
 }, {
-  firstName: "Робін",
-  lastName: "Щербатська",
+  firstName: "Gimli",
   phone: "+380931460123",
-  gender: "female"
+  gender: "male"
 }, {
-  firstName: "Анонімний",
-  lastName: "Анонімус",
+  firstName: "Legolas",
   phone: "+380666666666",
-  gender: "none"
+  gender: "male"
 }, {
-  firstName: "Лілія",
-  lastName: "Олдровна",
+  firstName: "Frodo",
   phone: "+380504691254",
-  gender: "female"
+  gender: "male"
 }, {
-  firstName: "Маршен",
-  lastName: "Еріксонян",
+  firstName: "Gendalf",
   phone: "+380739432123",
   gender: "male"
 }, {
-  firstName: "Теодор",
-  lastName: "Мотсбес",
+  firstName: "Sam",
   phone: "+380956319521",
   gender: "male"
 }];

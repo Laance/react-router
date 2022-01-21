@@ -14,7 +14,6 @@ function MainContactsApp() {
   useEffect(() => {
     setContacts(contacts.filter((contact) =>
     ((contact.firstName.toLowerCase().includes(searchValue.toLowerCase()) ||
-      contact.lastName.toLowerCase().includes(searchValue.toLowerCase()) ||
       contact.phone.includes(searchValue))
       )));
     }
@@ -23,6 +22,7 @@ function MainContactsApp() {
   return <div className='mainContacts'>
             <div className="headerContacts">
               <h2>Contacts</h2>
+              <p className='pContact'> It's just a joke, all numbers are fictitious :) </p>
             </div>
             <div>
               <input type="text" onChange={inputHandler}></input>

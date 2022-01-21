@@ -12,7 +12,7 @@ export default function Post({author, content, image, date}){
                         <p className="date">{date}</p>
                     </div>
                     <p className="content">{content}</p>
-                    <img className="img" src={image} alt="ray-im" />
+                    <img className="img" src={image} alt="" />
                 </div>
             </div>
         </div>

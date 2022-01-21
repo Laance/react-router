@@ -10,7 +10,7 @@ import ImageApp from './components/images/Images';
 function App() {
   return (
     <Router>
-    <div class="MainContainer">
+    <div class="mainContainer">
     <div class="container">
       <header class="main">
         <Link to="/react-router">Home</Link>

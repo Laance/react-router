@@ -3,16 +3,16 @@ import React from 'react';
 function ImageApp(){
     return(
         <div>
-        <h1>Images</h1>
+        <h1>Gallery of artworks</h1>
         <div className = "container-img">
             <div className="box">
-                <img src="https://cdna.artstation.com/p/assets/images/images/043/718/282/medium/gray-chen-cheng-yu-sketch-d-v1-nologo.jpg?1638093041" alt=''></img>
-                <img src="https://cdna.artstation.com/p/assets/images/images/028/339/108/medium/wl-op-4se.jpg?1594184259" alt=''></img>
-                <img src="https://cdnb.artstation.com/p/assets/images/images/044/865/289/medium/sung-choi-europa-camp-mood-sungchoi-1600px.jpg?1641347184" alt=''></img>
-                <img src="https://cdnb.artstation.com/p/assets/images/images/015/882/009/medium/wl-op-21s.jpg?1550027192" alt=''></img>
-                <img src="https://cdna.artstation.com/p/assets/images/images/010/317/772/medium/wl-op-26s.jpg?1523799105" alt=''></img>
-                <img src="https://cdna.artstation.com/p/assets/images/images/001/394/260/medium/wl-op-11s.jpg?1445677999" alt=''></img>
-                <img src="https://cdnb.artstation.com/p/assets/images/images/008/760/279/medium/sung-choi-molten-rain-sung-choi-1300px.jpg?1515121538" alt=''></img>
+                <img src="https://images4.alphacoders.com/155/thumb-1920-155094.jpg" alt=''></img>
+                <img src="https://images4.alphacoders.com/647/thumb-1920-647830.jpg" alt=''></img>
+                <img src="https://images.alphacoders.com/107/thumb-1920-1077530.jpg" alt=''></img>
+                <img src="https://images5.alphacoders.com/339/thumb-1920-339033.jpg" alt=''></img>
+                <img src="https://images6.alphacoders.com/104/thumb-1920-1043269.jpg" alt=''></img>
+                <img src="https://images.alphacoders.com/106/thumb-1920-1066506.jpg" alt=''></img>
+                <img src="https://images8.alphacoders.com/102/thumb-1920-1029896.jpg" alt=''></img>
             </div>
         </div>
         </div>
